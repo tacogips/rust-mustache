@@ -1,9 +1,6 @@
-use std::collections::HashMap;
 use std::cell::RefCell;
+use std::collections::HashMap;
 use std::fmt;
-
-// for bug!
-use log::{log, error};
 
 pub enum Data {
     Null,

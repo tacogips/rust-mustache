@@ -1,11 +1,9 @@
 use std::collections::HashMap;
-use std::mem;
 use std::io::Write;
+use std::mem;
 use std::str;
 
 use compiler::Compiler;
-// for bug!
-use log::{log, error};
 use parser::Token;
 use serde::Serialize;
 

@@ -3,7 +3,7 @@ macro_rules! bug {
         bug!("{}", $msg)
     });
     ($fmt:expr, $($arg:tt)+) => ({
-        error!(
+        log::error!(
             concat!("bug: ",
                     $fmt,
                     ". Please report this issue on GitHub if you find \

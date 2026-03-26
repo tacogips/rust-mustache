@@ -1,9 +1,6 @@
 use std::error::Error as StdError;
-use std::mem;
 use std::fmt;
-
-// for bug!
-use log::{log, error};
+use std::mem;
 
 /// `Token` is a section of a compiled mustache string.
 #[derive(Clone, Debug, PartialEq)]
